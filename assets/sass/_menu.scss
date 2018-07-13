@@ -1,0 +1,24 @@
+#menu{
+	position: relative;
+	.menu{
+		text-align: center;
+		position: fixed;
+		display: table;
+		width: 16%;
+		padding-top: 30px;
+		ul{
+			li{
+				list-style-type: none;
+				margin-top: 15px;
+				margin-left: -36px;
+				a{
+					color: #000;
+					&:hover{
+						font-family: latobold;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+}

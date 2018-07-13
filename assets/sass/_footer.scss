@@ -1,0 +1,16 @@
+footer{
+	padding-left: 15px;
+	margin-bottom: 35px;
+	.back{
+		border-bottom: 1px solid rgba(#707070, 0.2);
+		display: table;
+		width: 100%;
+		margin-top: -15px;
+		padding: 50px 0px;
+		margin-bottom: 50px;
+		text-align: center;
+		a{
+			color: #000;
+		}
+	}
+}

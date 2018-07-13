@@ -1,0 +1,16 @@
+.servicos{
+	padding-left: 15px;
+	.servico{
+		padding: 40px 0px 30px 0px;
+		border-bottom: 1px solid rgba(#707070, 0.2);
+		&:last-child{
+			border-bottom: 1px solid rgba(#707070, 0);
+		}
+		.item{
+			color: rgba(#707070, 0.2);
+			font-size: 150px;
+			margin-top: -55px;
+			letter-spacing: 10px;
+		}
+	}
+}

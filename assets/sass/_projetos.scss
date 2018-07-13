@@ -1,0 +1,22 @@
+.projetos{
+	.card{
+		border-radius: 0px;
+		border: 0px;
+		*{
+			border-radius: 0px;
+			border: 0px;
+		}
+	}
+	.projeto{
+		padding: 0px 0px 15px 15px;
+		.card-img-overlay{
+			background: rgba(#000, 0.79);
+			color: #fff;
+			text-align: center;
+			opacity: 0;
+			&:hover{
+				opacity: 1;
+			}
+		}
+	}
+}

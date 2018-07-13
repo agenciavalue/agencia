@@ -1,0 +1,45 @@
+.single{
+	margin-bottom: 15px;
+	padding-left: 15px;
+	*{
+		border: 0px;
+	}
+	.header{
+		margin-bottom: 30px;
+		.card-img-overlay{
+			padding: 100px 0px;
+			background: rgba(#000, 0.79);
+			color: #fff;
+			text-align: center;
+			h1{
+				font: 45px latoblack;
+				text-transform: uppercase;
+				letter-spacing: 4px;
+			}
+			p{
+				margin-bottom: 30px;
+				width: 90%;
+				max-width: 840px;
+				@extend .mar-auto;
+			}
+		}
+	}
+	.headerPage{
+		.infos{
+			padding: 100px 0px;
+			color: #707070;
+			text-align: center;
+			h1{
+				font: 45px latoblack;
+				text-transform: uppercase;
+				letter-spacing: 4px;
+			}
+			p{
+				margin-bottom: 30px;
+				width: 90%;
+				max-width: 840px;
+				@extend .mar-auto;
+			}
+		}
+	}
+}
